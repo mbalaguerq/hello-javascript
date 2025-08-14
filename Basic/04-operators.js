@@ -50,6 +50,8 @@ console.log(a === 6)
 console.log(a === "6")
 console.log(a != 6) // Desigualdad por valor
 console.log(a !== "6") // Desigualdad por identidad (por tipo y valor) o desigualdad estricta
+
+//peculiaridades de javascrypt
 console.log(0 == false)
 console.log(1 == false)
 console.log(2 == false)

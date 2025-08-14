@@ -27,7 +27,7 @@ console.log(greeting.toUpperCase()) // Mayúsculas
 console.log(greeting.toLowerCase()) // Minúsculas
 console.log(greeting.indexOf("Hola")) // Índice
 console.log(greeting.indexOf("Brais"))
-console.log(greeting.indexOf("MoureDev"))
+console.log(greeting.indexOf("MoureDev"))//no lo ha encontrado
 console.log(greeting.includes("Hola")) // Incluye
 console.log(greeting.includes("Brais"))
 console.log(greeting.includes("MoureDev"))

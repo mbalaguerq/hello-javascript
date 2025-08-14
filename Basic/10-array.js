@@ -16,7 +16,7 @@ console.log(myArray2)
 // Inicialización
 
 myArray = [3]
-myArray2 = new Array(3)
+myArray2 = new Array(3)//reserva 3 huecos vacíos)
 
 console.log(myArray)
 console.log(myArray2)
