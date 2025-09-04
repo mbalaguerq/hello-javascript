@@ -30,6 +30,9 @@ mySet.delete("https://moure.dev")
 console.log(mySet)
 
 console.log(mySet.delete("Brais"))
+
+// Si el elemento no existe, devuelve false. devuelve false pq los sets no tienen acceso mediante índice
+//Es decir, estamos epecificando que devuelva 4 literalmente, no el índice 4
 console.log(mySet.delete(4))
 
 console.log(mySet)
@@ -52,7 +55,7 @@ console.log(myArray)
 mySet = new Set(myArray)
 console.log(mySet)
 
-// No admite duplicados
+// No admite duplicados. Esta es la principal diferencia con los arrays 
 
 mySet.add("braismoure@mouredev.com")
 mySet.add("braismoure@mouredev.com")

@@ -52,7 +52,7 @@ console.log(myArray)
 
 myArray = []
 
-// push y pop
+// push y pop (añadir y eliminar del final)
 
 myArray.push("Brais")
 myArray.push("Moure")
@@ -66,7 +66,7 @@ myArray.pop()
 
 console.log(myArray)
 
-// shift y unshift
+// shift y unshift (eliminar y añadir del principio)
 
 console.log(myArray.shift())
 console.log(myArray)
@@ -74,17 +74,17 @@ console.log(myArray)
 myArray.unshift("Brais", "mouredev")
 console.log(myArray)
 
-// length
+// length (tamaño)
 
 console.log(myArray.length)
 
-// clear
+// clear (Eliminar todo el array)
 
 myArray = []
 myArray.length = 0 // alternativa
 console.log(myArray)
 
-// slice
+// slice (cortar sin modificar el array original)
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
@@ -93,12 +93,12 @@ let myNewArray = myArray.slice(1, 3)
 console.log(myArray)
 console.log(myNewArray)
 
-// splice
+// splice (modifica el array original)
 
-myArray.splice(1, 3)
+myArray.splice(1, 3) //(índice, número de elementos a eliminar)
 console.log(myArray)
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
-myArray.splice(1, 2, "Nueva entrada")
+myArray.splice(1, 2, "Nueva entrada") //(índice, número de elementos a eliminar, elementos a añadir)
 console.log(myArray)

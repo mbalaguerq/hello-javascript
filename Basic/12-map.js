@@ -23,40 +23,40 @@ console.log(myMap)
 
 // Métodos y propiedades
 
-// set
+// set (añadir o actualizar)
 
 myMap.set("alias", "mouredev")
 myMap.set("name", "Brais Moure")
 
 console.log(myMap)
 
-// get
+// get (obtener)
 
 console.log(myMap.get("name"))
 console.log(myMap.get("surname"))
 
-// has
+// has (consultar si existe)
 
 console.log(myMap.has("surname"))
 console.log(myMap.has("age"))
 
-// delete
+// delete (borrar)
 
 myMap.delete("email")
 
 console.log(myMap)
 
-// keys, values y entries
+// keys, values y entries (para iterar)
 
 console.log(myMap.keys())
 console.log(myMap.values())
 console.log(myMap.entries())
 
-// size
+// size (tamaño)
 
 console.log(myMap.size)
 
-// clear
+// clear (limpiar)
 
 myMap.clear()
 
