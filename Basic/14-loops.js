@@ -17,6 +17,7 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(`Elemento: ${numbers[i]}`)
 }
 
+console.log();
 // while
 
 let i = 0
@@ -29,6 +30,8 @@ while (i < 5) {
 // while(true) {
 // }
 
+
+console.log();
 // do while
 
 i = 6
@@ -37,6 +40,8 @@ do {
     i++
 } while (i < 5)
 
+
+console.log();
 // for of
 
 const myArray = [1, 2, 3, 4]
@@ -67,6 +72,7 @@ for (let value of myString) {
     console.log(value)
 }
 
+console.log();
 // break y continue
 
 for (let i = 0; i < 10; i++) {
